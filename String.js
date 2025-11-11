@@ -3,6 +3,7 @@ const Repo = 34;
 console.log(name + Repo + " Repositories ");
 // (👆 This syntax is correct, but it’s not used much anymore.)
 
+
 console.log(`My Name is ${name} and My Github Page Repositories is ${Repo}  Thanks`);
 // (👆 This syntax is correct, and  it is a Simple Syntax Code and this is Used in Many Places..)
 
