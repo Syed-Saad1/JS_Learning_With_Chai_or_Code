@@ -59,3 +59,4 @@ myfirstfuncton()
 //     return anyArray[2]
 // }
 // console.log(myFunction(MyArray));
+
