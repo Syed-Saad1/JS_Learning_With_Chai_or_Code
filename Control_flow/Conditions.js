@@ -76,3 +76,19 @@
 // }else{
 //     console.log("Not Allowed to used");
 // }
+
+// 👇 Nulish Coalescing Operator ?? 
+ 
+// let value;
+// value = 2 ?? 3;
+// value = null ?? 23;
+// value = undefined ?? 34;
+// value = null ?? 13 ?? 23;
+// console.log(value);
+
+// 👇 Terniary Operator 
+// Condition ? true : false 
+
+const iceteaprice = 1000
+iceteaprice <= 80 ? console.log("less than 80") : console.log("More than 80");
+
