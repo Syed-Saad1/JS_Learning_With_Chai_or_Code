@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI-Generator</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body class="bg-[#474729]">
+
+    <div>
+
+        <div>
+            <h1 class="font-bold text-5xl text-center mt-10">BMI Calculator</h1>
+            <div class="flex justify-center items-center mt-20">
+                <form>
+                    <p><label class="font-bold">Height in CM : </label><input
+                            class="border-2 border-black outline-none px-1 py-1" type="text" id="Height"></p>
+                    <p class="mt-6"><label class="font-bold">Weight in kg : &nbsp;</label><input
+                            class="border-2 border-black outline-none px-1 py-1" type="text" id="Weight"></p>
+                    <button class="bg-gray-400 px-8 py-2 mt-6 rounded-full text-[18px] font-bold">Calculate</button>
+                    <div id="result"></div>
+                    <div id="Weightguide" class="mt-5">
+                        <p class="pt-2 text-xl font-bold text-green-300">BMI-Generator Weight Guide</p>
+                        <p class="pt-2 text-xl font-semibold">Under Weight = less than 18.6</p>
+                        <p class="pt-2 text-xl font-semibold">Normal Range = 18.6 and 24.9</p>
+                        <p class="pt-2 text-xl font-semibold">Over Weight = Greater than 24.9</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+<script src="./app.js"></script>
+</html>
