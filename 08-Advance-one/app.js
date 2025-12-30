@@ -1,4 +1,4 @@
-const requestURL = "https://jsonplaceholder.typicode.com/users/1";
+const requestURL = "https://api.github.com/users/Syed-Saad1";
 const xhr = new XMLHttpRequest();
 xhr.open("GET", requestURL);
 xhr.onreadystatechange = function () {
