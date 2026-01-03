@@ -28,3 +28,7 @@ function User2(username, email, password) {
 User2.prototype.encryptopassword = function(){
     return `${this.password}abc`
 }
+User2.prototype.changeusername = function(){
+    return `${this.username.toLowerCase()}`
+}
+const tea = new User2("")
