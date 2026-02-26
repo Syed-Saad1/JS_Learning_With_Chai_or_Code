@@ -18,7 +18,6 @@
 // undefind => NaN ( 👈 is can not Convert)
 // "Saad" => NaN ( 👈 is can not Convert)
 
-
 // ( 👇 This time Converstion With Boolean 👇 )
 
 // let isloggedin = 1
@@ -39,10 +38,10 @@
 
 //( 👇 Who Can Convert in boolean And Not So Given Result👇 )
 
-// 1 => true 
-// 0 => false 
-// "" => false 
-// "Add Any Text" => true 
+// 1 => true
+// 0 => false
+// "" => false
+// "Add Any Text" => true
 
 // ( 👇 This time Converstion With String 👇 )
 
@@ -53,7 +52,7 @@
 
 // ********************************  Operation  ************************************
 
-// ( 👇 Positive Number Change to Negative 👇 ) 
+// ( 👇 Positive Number Change to Negative 👇 )
 
 // let positivenumber = 45;
 // let Changetoneg = -positivenumber;
@@ -81,8 +80,8 @@
 // console.log("6" + 7); // This time number behaviour is concat..
 // console.log(4 + "7"); // This time number behaviour is concat..
 // console.log("2" + 2 + 2); // This time number behaviour is concat..
-// console.log(7 + 2 + "2"); // is time ya first or second number ko plus 
-// kar raha ha or third number ka sath Murch 
+// console.log(7 + 2 + "2"); // is time ya first or second number ko plus
+// kar raha ha or third number ka sath Murch
 
 // let num = 46 + 2 + "2" ;
 // console.log(num);
@@ -91,11 +90,10 @@
 // console.log(+true);
 // console.log(+"");
 
-
 // let num1 , num2 , num3;
 // num1  = num2  = num3 = 3 +  4;
 
-// let gamecounter = 100 
+// let gamecounter = 100
 // ++gamecounter;
 // gamecounter++;
 // console.log(gamecounter);
