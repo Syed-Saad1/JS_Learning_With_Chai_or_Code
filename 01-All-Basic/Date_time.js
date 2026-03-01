@@ -21,9 +21,9 @@
 // console.log(MyCreated.toDateString());
 // // (👆 This Method is Create a Cutomerize date)
 
-// let My_MM_DD_YY = new Date("04-28-2010");
-// console.log(My_MM_DD_YY.toDateString());
-// // (👆 This Method is Create a Cutomerize date but format is used DD/MM/YY)
+let My_MM_DD_YY = new Date("04-28-2026");
+console.log(My_MM_DD_YY.toDateString());
+// (👆 This Method is Create a Cutomerize date but format is used DD/MM/YY)
 
 // let Mytime = Date.now();
 // console.log(Mytime);
