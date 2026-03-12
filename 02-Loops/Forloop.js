@@ -12,7 +12,7 @@ for (let i = 2; i <= 5; i++) {
   console.log(`outer loop Value : ${i}`);
   for (let j = 2; j <= 5; j++) {
     // console.log(`inner loop value : ${j} and inner loop ${i}`);
-  console.log(i + ' * ' + j + ' = ' + i*j);
+    console.log(i + " * " + j + " = " + i * j);
   }
 }
 
@@ -26,7 +26,6 @@ let MyArray = [
 for (let index = 0; index < MyArray.length; index++) {
   const element = MyArray[index];
   console.log(element);
-
 }
 
 for (let index = 0; index <= 20; index++) {
@@ -35,7 +34,6 @@ for (let index = 0; index <= 20; index++) {
     break;
   }
   console.log(`index values : ${index}`);
-  
 }
 
 for (let index = 0; index <= 20; index++) {
@@ -44,5 +42,4 @@ for (let index = 0; index <= 20; index++) {
     continue;
   }
   console.log(`index values : ${index}`);
-  
 }
